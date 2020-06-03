@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.Header{
+    position: fixed;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border: 1px solid #FAFAFA;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.02), 0px 10px 15px rgba(0, 0, 0, 0.01);
+}
+
+.section-menu{
+    padding: 0px;
+    position: absolute;
+    left: 20.14%;
+    right: 29.58%;
+    top: 33.33%;
+    bottom: 33.33%;
+}
+
+.zero, .one, .two, .three, .four, .five, .six{
+    position: static;
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+    flex: none;
+
+    align-self: center;
+    margin: 0 0 0 0;
+    padding: 0 24px 0 0;
+}
+
+.zero {
+    /* width: 67px;
+    height: 24px; */
+    left: 0px;
+    top: 0px;
+    order: 0;
+}
+
+.one{
+    /* width: 98px;
+    height: 24px; */
+    left: 91px;
+    top: 0px;
+    order: 1;
+}
+
+.two{
+    /* width: 133px;
+    height: 24px; */
+    left: 213px;
+    top: 0px;
+    order: 2;
+}
+
+.three{
+    /* width: 82px;
+    height: 24px; */
+    left: 370px;
+    top: 0px;
+    order: 3;
+}
+
+.four{
+    /* width: 48px;
+    height: 24px; */
+    left: 476px;
+    top: 0px;
+    order: 4;
+}
+
+.five{
+    /* width: 48px;
+    height: 24px; */
+    left: 476px;
+    top: 0px;
+    order: 5;
+}
+
+.six{
+    /* width: 86px;
+    height: 24px; */
+    left: 638px;
+    top: 0px;
+    order: 6;
+}
+
+.line-search{
+    position: absolute;
+    left: 78.89%;
+    right: 16.11%;
+    top: 0%;
+    bottom: 100%;
+
+    border: 1px solid #EBEBEB;
+    transform: rotate(90deg);
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 32px;
+
+    position: absolute;
+    left: 81.11%;
+    top: 33.33%;
+    bottom: 33.33%;
+}
+
+.icon-search{
+    position: static;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 8px 0px;
+}
+
+.placeholder-search{
+    position: static;
+    width: 63px;
+    height: 24px;
+    left: 32px;
+    top: 0px;
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+
+    color: #828282;
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 0 0 0 8px;
+}
